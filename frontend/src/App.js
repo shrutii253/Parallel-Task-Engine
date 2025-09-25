@@ -94,6 +94,7 @@ function App() {
         </button>
         <p className="text-center text-lg font-semibold mt-2 text-neon-green" style={{color: '#00ff99'}}>{response}</p>
       </form>
+      <br/>
       {showTable && (
         <div ref={tableRef}>
           <div className="w-full max-w-3xl mb-8 overflow-x-auto">
@@ -120,6 +121,7 @@ function App() {
               </tbody>
             </table>
           </div>
+          <br/>
           <div className="w-full max-w-xl bg-black bg-opacity-60 rounded-xl shadow-2xl p-6 mb-8 border-2 border-green-400" style={{fontFamily: 'Share Tech Mono, monospace'}}>
             <h3 className="text-2xl font-bold mb-4 text-neon-green" style={{color: '#00ff99'}}>Metrics</h3>
             <div className="flex flex-col gap-2 text-lg">
